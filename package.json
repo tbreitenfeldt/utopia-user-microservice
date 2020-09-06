@@ -1,0 +1,29 @@
+{
+  "name": "utopia-user",
+  "version": "1.0.0",
+  "description": "Manages account actions for a user.",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothy-breitenfeldt/utopia-user.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothy-breitenfeldt/utopia-user/issues"
+  },
+  "homepage": "https://github.com/timothy-breitenfeldt/utopia-user#readme"
+}
